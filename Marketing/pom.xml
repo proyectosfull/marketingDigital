@@ -22,7 +22,7 @@
 
 		<!-- dependencias -->
 		<!-- Spring -->
-		<version.spring>4.3.9.RELEASE</version.spring>
+		<version.spring>5.2.5.RELEASE</version.spring>
 		<version.jstl>1.2</version.jstl>
 		<version.sqlmicrosoft>6.2.2.jre7</version.sqlmicrosoft>
 		<servlet-api.version>3.1.0</servlet-api.version>
