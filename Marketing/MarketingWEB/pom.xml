@@ -10,7 +10,7 @@
 	<artifactId>MarketingWEB</artifactId>
 	<packaging>war</packaging>
 	<name>MarketingWEB</name>
-	<!-- Dependencias -->
+	<!-- Dependencias   -->
 
 	<dependencies>
 			<dependency>
