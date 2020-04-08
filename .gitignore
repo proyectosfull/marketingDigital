@@ -24,7 +24,7 @@ tomcat
 
 # Maven 
 target/
-
+**/.sts4-cache/*
 # IntelliJ project files 
 *.iml
 *.iws
