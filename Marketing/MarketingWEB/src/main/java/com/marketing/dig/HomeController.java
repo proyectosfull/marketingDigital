@@ -19,6 +19,7 @@ import com.marketing.dig.service.IPruebaService;
 import com.marketing.dig.zdto.PruebaDTO;
 import com.marketing.dig.zdto.RequestExample;
 import com.marketing.dig.zdto.ResponseOV;
+import com.marketing.dig.zdto.TipoIncidenciaDTO;
 
 @Controller
 @RequestMapping("home")
@@ -38,8 +39,8 @@ public class HomeController {
 	
 	@GetMapping(value = "goStore")
 	public String goStore() throws Exception {
-		logger.info("store ="+ service.consultaCatalogoInc().toString());
-		
+		//logger.info("store ="+ service.consultaCatalogoInc().toString());
+		List<TipoIncidenciaDTO> prueba = service.consultaCatalogoInc();
 		return "homes/home";
 	}
 	
